@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="scotiasuppliersModelStoreContainer" CdmEntityContainer="scotiasuppliersEntities">
+    <EntitySetMapping Name="orders">
+      <EntityTypeMapping TypeName="scotiasuppliersModel.order">
+        <MappingFragment StoreEntitySet="order">
+          <ScalarProperty Name="TicketId" ColumnName="TicketId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Product_ProductId" ColumnName="Product_ProductId" />
+          <ScalarProperty Name="Product_SupplierId" ColumnName="Product_SupplierId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TrackingId" ColumnName="TrackingId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="scotiasuppliersModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MoneyPrice" ColumnName="MoneyPrice" />
+          <ScalarProperty Name="PointsPrice" ColumnName="PointsPrice" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AQuantity" ColumnName="AQuantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="suppliers">
+      <EntityTypeMapping TypeName="scotiasuppliersModel.supplier">
+        <MappingFragment StoreEntitySet="supplier">
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProductsType" ColumnName="ProductsType" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="scotiasuppliersModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="order">
+    <Key>
+      <PropertyRef Name="TicketId" />
+    </Key>
+    <Property Name="TicketId" Type="Int32" Nullable="false" />
+    <Property Name="CustomerId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Product_ProductId" Type="Int32" Nullable="false" />
+    <Property Name="Product_SupplierId" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TrackingId" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="product" Relationship="Self.fk_Order_Product1" FromRole="order" ToRole="product" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+      <PropertyRef Name="SupplierId" />
+    </Key>
+    <Property Name="ProductId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SupplierId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MoneyPrice" Type="Single" Nullable="false" />
+    <Property Name="PointsPrice" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="16777215" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AQuantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="orders" Relationship="Self.fk_Order_Product1" FromRole="product" ToRole="order" />
+    <NavigationProperty Name="supplier" Relationship="Self.fk_Product_Supplier" FromRole="product" ToRole="supplier" />
+  </EntityType>
+  <EntityType Name="supplier">
+    <Key>
+      <PropertyRef Name="SupplierId" />
+    </Key>
+    <Property Name="SupplierId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="16777215" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ProductsType" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="products" Relationship="Self.fk_Product_Supplier" FromRole="supplier" ToRole="product" />
+  </EntityType>
+  <Association Name="fk_Order_Product1">
+    <End Role="product" Type="Self.product" Multiplicity="1" />
+    <End Role="order" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="ProductId" />
+        <PropertyRef Name="SupplierId" />
+      </Principal>
+      <Dependent Role="order">
+        <PropertyRef Name="Product_ProductId" />
+        <PropertyRef Name="Product_SupplierId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Product_Supplier">
+    <End Role="supplier" Type="Self.supplier" Multiplicity="1" />
+    <End Role="product" Type="Self.product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="supplier">
+        <PropertyRef Name="SupplierId" />
+      </Principal>
+      <Dependent Role="product">
+        <PropertyRef Name="SupplierId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="scotiasuppliersEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="orders" EntityType="Self.order" />
+    <EntitySet Name="products" EntityType="Self.product" />
+    <EntitySet Name="suppliers" EntityType="Self.supplier" />
+    <AssociationSet Name="fk_Order_Product1" Association="Self.fk_Order_Product1">
+      <End Role="product" EntitySet="products" />
+      <End Role="order" EntitySet="orders" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Product_Supplier" Association="Self.fk_Product_Supplier">
+      <End Role="supplier" EntitySet="suppliers" />
+      <End Role="product" EntitySet="products" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

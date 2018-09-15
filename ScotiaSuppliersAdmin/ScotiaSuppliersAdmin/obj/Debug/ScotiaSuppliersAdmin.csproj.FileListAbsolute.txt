@@ -143,3 +143,5 @@ C:\xampp\htdocs\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\obj\De
 C:\xampp\htdocs\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\obj\Debug\ScotiaSuppliersAdmin.dll
 C:\xampp\htdocs\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\obj\Debug\ScotiaSuppliersAdmin.pdb
 >>>>>>> 7b645d3e4c0f0255a05b280bf208d089b57e0af9
+C:\Users\SJG99\Desktop\ScotiaBank\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\EntityFramework.dll
+C:\Users\SJG99\Desktop\ScotiaBank\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\EntityFramework.xml

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="scotiasuppliersModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="8.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="order">
+    <Key>
+      <PropertyRef Name="TicketId" />
+    </Key>
+    <Property Name="TicketId" Type="int" Nullable="false" />
+    <Property Name="CustomerId" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Product_ProductId" Type="int" Nullable="false" />
+    <Property Name="Product_SupplierId" Type="int" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="TrackingId" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+      <PropertyRef Name="SupplierId" />
+    </Key>
+    <Property Name="ProductId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SupplierId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="MoneyPrice" Type="float" Nullable="false" />
+    <Property Name="PointsPrice" Type="int" Nullable="false" />
+    <Property Name="Description" Type="mediumtext" Nullable="false" />
+    <Property Name="AQuantity" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="supplier">
+    <Key>
+      <PropertyRef Name="SupplierId" />
+    </Key>
+    <Property Name="SupplierId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Description" Type="mediumtext" Nullable="false" />
+    <Property Name="ProductsType" Type="int" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <Association Name="fk_Order_Product1">
+    <End Role="product" Type="Self.product" Multiplicity="1" />
+    <End Role="order" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="ProductId" />
+        <PropertyRef Name="SupplierId" />
+      </Principal>
+      <Dependent Role="order">
+        <PropertyRef Name="Product_ProductId" />
+        <PropertyRef Name="Product_SupplierId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Product_Supplier">
+    <End Role="supplier" Type="Self.supplier" Multiplicity="1" />
+    <End Role="product" Type="Self.product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="supplier">
+        <PropertyRef Name="SupplierId" />
+      </Principal>
+      <Dependent Role="product">
+        <PropertyRef Name="SupplierId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="scotiasuppliersModelStoreContainer">
+    <EntitySet Name="order" EntityType="Self.order" Schema="scotiasuppliers" store:Type="Tables" />
+    <EntitySet Name="product" EntityType="Self.product" Schema="scotiasuppliers" store:Type="Tables" />
+    <EntitySet Name="supplier" EntityType="Self.supplier" Schema="scotiasuppliers" store:Type="Tables" />
+    <AssociationSet Name="fk_Order_Product1" Association="Self.fk_Order_Product1">
+      <End Role="product" EntitySet="product" />
+      <End Role="order" EntitySet="order" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Product_Supplier" Association="Self.fk_Product_Supplier">
+      <End Role="supplier" EntitySet="supplier" />
+      <End Role="product" EntitySet="product" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -100,6 +100,12 @@
     <Content Include="Models\ScotiaSuppliersDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ScotiaSuppliersDB.Context.cs</LastGenOutput>
+      <DependentUpon>ScotiaSuppliersDB.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\ScotiaSuppliersDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ScotiaSuppliersDB.edmx</DependentUpon>
+      <LastGenOutput>ScotiaSuppliersDB.cs</LastGenOutput>
     </Content>
     <Content Include="Web.config" />
   </ItemGroup>
@@ -109,15 +115,29 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\order.cs">
+      <DependentUpon>ScotiaSuppliersDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\product.cs">
+      <DependentUpon>ScotiaSuppliersDB.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\ScotiaSuppliersDB.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ScotiaSuppliersDB.Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\ScotiaSuppliersDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScotiaSuppliersDB.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\ScotiaSuppliersDB.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ScotiaSuppliersDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\supplier.cs">
+      <DependentUpon>ScotiaSuppliersDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -127,9 +147,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>ScotiaSuppliersDB.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Models\ScotiaSuppliersDB.edmx.diagram">
+    <Content Include="Models\ScotiaSuppliersDB.edmx.diagram">
       <DependentUpon>ScotiaSuppliersDB.edmx</DependentUpon>
-    </None>
+    </Content>
     <None Include="packages.config" />
     <Content Include="Views\Management\Index.cshtml" />
     <None Include="Web.Debug.config">
