@@ -1,4 +1,75 @@
 <<<<<<< HEAD
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\ScotiaSuppliersAdmin.dll.config
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\ScotiaSuppliersAdmin.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\ScotiaSuppliersAdmin.pdb
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\csc.exe
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\csc.exe.config
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\csc.rsp
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\csi.exe
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\csi.exe.config
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\csi.rsp
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.AppContext.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Console.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.IO.Compression.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Security.Claims.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.ValueTuple.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\vbc.exe
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\vbc.exe.config
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\vbc.rsp
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\System.Web.Helpers.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\System.Web.Mvc.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\System.Web.Razor.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\System.Web.Webpages.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\System.Web.Webpages.Razor.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\System.Web.Razor.xml
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\System.Web.Webpages.xml
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\System.Web.Webpages.Razor.xml
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\System.Web.Helpers.xml
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\System.Web.Mvc.xml
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\obj\Debug\ScotiaSuppliersAdmin.csprojResolveAssemblyReference.cache
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\obj\Debug\ScotiaSuppliersAdmin.dll
+C:\Users\Jorge M\Documents\GitHub\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\obj\Debug\ScotiaSuppliersAdmin.pdb
+=======
+<<<<<<< HEAD
 C:\Users\SJG99\Desktop\ScotiaBank\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\ScotiaSuppliersAdmin.dll.config
 C:\Users\SJG99\Desktop\ScotiaBank\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\ScotiaSuppliersAdmin.dll
 C:\Users\SJG99\Desktop\ScotiaBank\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\ScotiaSuppliersAdmin.pdb
@@ -143,5 +214,9 @@ C:\xampp\htdocs\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\obj\De
 C:\xampp\htdocs\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\obj\Debug\ScotiaSuppliersAdmin.dll
 C:\xampp\htdocs\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\obj\Debug\ScotiaSuppliersAdmin.pdb
 >>>>>>> 7b645d3e4c0f0255a05b280bf208d089b57e0af9
+<<<<<<< HEAD
 C:\Users\SJG99\Desktop\ScotiaBank\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\EntityFramework.dll
 C:\Users\SJG99\Desktop\ScotiaBank\Mysterious-Team\ScotiaSuppliersAdmin\ScotiaSuppliersAdmin\bin\EntityFramework.xml
+=======
+>>>>>>> a2cc0ca527518ab5073d84024d9aeb673dde86a5
+>>>>>>> bbac37a09c0535bda80c4205b77f72ae4ed6646c
