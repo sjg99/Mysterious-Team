@@ -96,10 +96,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Design\Management\Colpatria.png" />
     <Content Include="Design\Management\go.png" />
     <Content Include="Design\Management\main.css" />
     <Content Include="Design\Management\PRUEBA.html" />
     <Content Include="Design\Management\reset.css" />
+    <Content Include="Design\Management\Scotia.png" />
     <Content Include="Design\Management\scotiabank.png" />
     <Content Include="Design\Proveedores\CSS\animate.css" />
     <Content Include="Design\Proveedores\CSS\bootstrap.min.css" />
@@ -115,6 +117,7 @@
     <Content Include="Design\Proveedores\CSS\prodcts.css" />
     <Content Include="Design\Proveedores\productos.html" />
     <Content Include="Design\Proveedores\script.js" />
+    <Content Include="Design\Proveedores\Tostao.png" />
     <Content Include="Global.asax" />
     <Content Include="Models\ScotiaSuppliersDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
