@@ -96,6 +96,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Design\Management\go.png" />
+    <Content Include="Design\Management\main.css" />
+    <Content Include="Design\Management\PRUEBA.html" />
+    <Content Include="Design\Management\reset.css" />
+    <Content Include="Design\Management\scotiabank.png" />
     <Content Include="Design\Proveedores\CSS\animate.css" />
     <Content Include="Design\Proveedores\CSS\bootstrap.min.css" />
     <Content Include="Design\Proveedores\CSS\fancybox_loading.gif" />
