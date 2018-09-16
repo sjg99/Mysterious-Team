@@ -338,9 +338,8 @@ top: -8px;
 ==========================================*/
 
 .member-thumb {
+  width: 273px;
   position: relative;
-  height: 250px;
-  width: 300px;
 }
 
 .member-thumb .overlay h5 {

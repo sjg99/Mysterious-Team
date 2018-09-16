@@ -24,6 +24,7 @@ a{
     color:rgb(0, 0, 0);
 }
 .nombre{
+    font-family: 'Courgette', cursive;
     margin-left: 30px; 
 }
 .usuario ul h1{
@@ -46,7 +47,6 @@ a{
     
 }
 
-<<<<<<< HEAD
 /* seccion1*/
 section{
     width: 100%;
@@ -97,8 +97,6 @@ section{
     width: 100%;
 }
 
-=======
->>>>>>> 2f886c4d0df2273b1fd8af72a8cb9b764cade4a9
 /*logo*/
 
 .animated { 
@@ -161,7 +159,6 @@ section{
     padding-top: 5px;
 }
 
-<<<<<<< HEAD
 .search{
     width: 100%;
     height: 30px;
@@ -173,64 +170,4 @@ section{
     margin-right: 0%;
 }
  
-=======
-   .search{
-       width: 100%;
-       height: 4vh;
-       background-color: #ec1c2c;
-   }
->>>>>>> 2f886c4d0df2273b1fd8af72a8cb9b764cade4a9
 
-.selector{
-    
-    background: url(logol.jpg);
-    background-repeat: none;
-    background: cover;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 86vh;
-}
-   div#uno, div#dos{
-       margin: 1%;
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-content: center;
-       padding: 1%;
-       width: 200px;
-    background-color: #ec1c2c;
-    font-family: sans-serif;
-    border-radius: 3px;
-}
-
-
-img.icon{
-	display: block;
-	margin:50px auto;
-	background-color: white;
-	width:40px;
-	padding:20px;
-	-webkit-border-radius: 50%;
-	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
-	-webkit-transition:box-shadow .4s;
-}
-
-p.texto{
-	font-size: 1.2em;
-	color:white;
-	text-align: center;
-	padding-top:10px;
-	opacity: .6;
-	-webkit-transition: padding-top .4s;
-}
-
-
-#uno:hover p.texto, #dos:hover p.texto{
-	padding-top: 30px;
-    opacity: 1;
-}
-
-#uno:hover img.icon, #dos:hover img.icon{
-	-webkit-box-shadow:0px 0px 0px 0px white;
-}
