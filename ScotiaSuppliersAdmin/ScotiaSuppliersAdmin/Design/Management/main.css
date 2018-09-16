@@ -152,14 +152,12 @@ text-shadow: 1px 1px 20px #000000;
     animation-name: flash2;
    }
 
-<<<<<<< HEAD
    .search{
        width: 100%;
        height: 4vh;
        background-color: #ec1c2c;
        padding-left: 80%;
    }
-=======
 .search{
     width: 100%;
     height: 30px;
@@ -171,5 +169,4 @@ text-shadow: 1px 1px 20px #000000;
     margin-right: 0%;
 }
  
->>>>>>> parent of f2d001b... Merge branch 'master' of https://github.com/sjg99/Mysterious-Team
 
