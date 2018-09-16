@@ -1,10 +1,12 @@
-/*--
-    Common Css
---*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+}
 body {
   font-size: 14px;
   font-weight: 300;
   line-height: 25px;
+  width: 100%;
   color: #3b4045;
   font: 14px/22px 'Source Sans Pro', sans-serif, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased; }
@@ -72,7 +74,7 @@ a:active {
     .hero-area start
 --*/
 .bg-1 {
-  background-image: url("../images/header-bg.jpg");
+  background-image: url("../images/edificio.jpg");
   background-size: cover;
   background-attachment: fixed; }
 
@@ -144,27 +146,33 @@ a:active {
     font-weight: 300; }
 
 .btn {
-  border-radius: 0; }
+  border-radius: 0;
+}
 
 .btn-home {
-  background-color: #1bafb4;
-  border-radius: 0px;
+  background-color: #ec1c2c;
+  position: absolute;
+  border-radius: 3px;
   color: #fff;
   font-size: 18px;
   padding: 10px 40px;
-  margin-top: 30px; }
-  .btn-home:hover, .btn-home:focus {
-    background-color: #fff;
-    color: #555;
-    border: 1px solid #fff; }
+  margin-top: 30px;
+}
+.btn-home:hover, .btn-home:focus {
+  background-color: #fff;
+  color: #555;
+  border: 1px solid #fff;
+}
 
 /*--
     service start
 --*/
 .service {
-  text-align: center; }
+  text-align: center;
+}
   .service .block {
-    margin-bottom: 50px; }
+    margin-bottom: 100px;
+  }
     .service .block i {
       font-size: 30px;
       display: inline-block;
@@ -174,7 +182,7 @@ a:active {
       color: #333333;
       font-weight: 600;
       font-size: 18px;
-      margin-bottom: 15px;
+      margin-bottom: 1px;
       letter-spacing: 1px;
       text-transform: uppercase; }
     .service .block p {
@@ -194,3 +202,85 @@ a:active {
 .about .about-slider img {
   width: 100%;
   height: auto; }
+
+.profile-img{
+  border: 1px solid black;
+  border-radius: 50%; 
+}
+
+.prov{
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+.segui{
+  margin-top: 20%;
+  margin-left: 50%;
+}
+
+
+.navegador{
+  display: flex;
+    position: absolute;
+    float: left;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    width: 55%;
+    height: 60%;
+    
+}
+
+.logo_colpatria{
+  
+  justify-content: center;
+  height: 100%;
+}
+
+.usuario ul li img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    margin: 10px 40px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+}
+
+.animated2 { 
+  animation-duration: 20s; 
+  animation-fill-mode: both; 
+  animation-iteration-count:infinite; 
+  position: absolute;
+  align-content: center;
+} 
+
+@keyframes flash {
+  25%, 75% {
+      opacity: 1;
+      }
+  0%, 50%, 100% {
+  opacity: 0;
+  }
+ 
+ }
+ .flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+ }
+
+
+  @keyframes flash2 {
+    25%, 75% {
+        opacity: 0;
+        }
+    0%, 50%, 100% {
+    opacity: 1;
+    }
+   
+   }
+   .flash2 {
+    -webkit-animation-name: flash2;
+    animation-name: flash2;
+    
+  padding-left: 15%;
+   }

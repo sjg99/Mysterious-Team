@@ -10,8 +10,7 @@ header{
 }
 .navegador{
     display: inline;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 a{
     text-decoration: none;
