@@ -23,6 +23,8 @@
     <Property Name="PointsPrice" Type="int" Nullable="false" />
     <Property Name="Description" Type="mediumtext" Nullable="false" />
     <Property Name="AQuantity" Type="int" Nullable="false" />
+    <Property Name="ImageUrl" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="45" Nullable="false" />
   </EntityType>
   <EntityType Name="supplier">
     <Key>
@@ -33,6 +35,7 @@
     <Property Name="Description" Type="mediumtext" Nullable="false" />
     <Property Name="ProductsType" Type="int" Nullable="false" />
     <Property Name="Status" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="ImageUrl" Type="varchar" MaxLength="200" Nullable="false" />
   </EntityType>
   <Association Name="fk_Order_Product1">
     <End Role="product" Type="Self.product" Multiplicity="1" />

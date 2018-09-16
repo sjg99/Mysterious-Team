@@ -12,7 +12,7 @@ namespace ScotiaSuppliersAdmin.Controllers
         private List<Models.supplier> LoadSuppliers()
         {
             List<Models.supplier> sls = new List<Models.supplier>();
-            using (Models.scotiasuppliersEntities db = new Models.scotiasuppliersEntities())
+            using (Models.scotiasuppliersEntities1 db = new Models.scotiasuppliersEntities1())
             {
                 var GetSuppliers = db.suppliers.Where(x => x.SupplierId > 0);
                 foreach(var s in GetSuppliers)

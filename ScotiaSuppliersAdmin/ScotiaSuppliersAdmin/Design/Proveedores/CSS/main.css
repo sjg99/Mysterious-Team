@@ -338,7 +338,8 @@ top: -8px;
 ==========================================*/
 
 .member-thumb {
-  width: 273px;
+  width: 250px;
+  height: 250px;
   position: relative;
 }
 

@@ -24,6 +24,7 @@ namespace ScotiaSuppliersAdmin.Models
         public string Description { get; set; }
         public int ProductsType { get; set; }
         public string Status { get; set; }
+        public string ImageUrl { get; set; }
     
         public virtual ICollection<product> products { get; set; }
     }

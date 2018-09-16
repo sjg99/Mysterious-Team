@@ -28,6 +28,8 @@
           <Property Name="PointsPrice" Type="int" Nullable="false" />
           <Property Name="Description" Type="mediumtext" Nullable="false" />
           <Property Name="AQuantity" Type="int" Nullable="false" />
+          <Property Name="ImageUrl" Type="varchar" MaxLength="200" Nullable="false" />
+          <Property Name="Status" Type="varchar" MaxLength="45" Nullable="false" />
         </EntityType>
         <EntityType Name="supplier">
           <Key>
@@ -38,6 +40,7 @@
           <Property Name="Description" Type="mediumtext" Nullable="false" />
           <Property Name="ProductsType" Type="int" Nullable="false" />
           <Property Name="Status" Type="varchar" MaxLength="45" Nullable="false" />
+          <Property Name="ImageUrl" Type="varchar" MaxLength="200" Nullable="false" />
         </EntityType>
         <Association Name="fk_Order_Product1">
           <End Role="product" Type="Self.product" Multiplicity="1" />
@@ -107,6 +110,8 @@
           <Property Name="PointsPrice" Type="Int32" Nullable="false" />
           <Property Name="Description" Type="String" MaxLength="16777215" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="AQuantity" Type="Int32" Nullable="false" />
+          <Property Name="ImageUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Status" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="orders" Relationship="Self.fk_Order_Product1" FromRole="product" ToRole="order" />
           <NavigationProperty Name="supplier" Relationship="Self.fk_Product_Supplier" FromRole="product" ToRole="supplier" />
         </EntityType>
@@ -119,6 +124,7 @@
           <Property Name="Description" Type="String" MaxLength="16777215" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="ProductsType" Type="Int32" Nullable="false" />
           <Property Name="Status" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ImageUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="products" Relationship="Self.fk_Product_Supplier" FromRole="supplier" ToRole="product" />
         </EntityType>
         <Association Name="fk_Order_Product1">
@@ -147,7 +153,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="scotiasuppliersEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="scotiasuppliersEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="orders" EntityType="Self.order" />
           <EntitySet Name="products" EntityType="Self.product" />
           <EntitySet Name="suppliers" EntityType="Self.supplier" />
@@ -165,7 +171,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="scotiasuppliersModelStoreContainer" CdmEntityContainer="scotiasuppliersEntities">
+        <EntityContainerMapping StorageEntityContainer="scotiasuppliersModelStoreContainer" CdmEntityContainer="scotiasuppliersEntities1">
           <EntitySetMapping Name="orders">
             <EntityTypeMapping TypeName="scotiasuppliersModel.order">
               <MappingFragment StoreEntitySet="order">
@@ -188,6 +194,8 @@
                 <ScalarProperty Name="PointsPrice" ColumnName="PointsPrice" />
                 <ScalarProperty Name="Description" ColumnName="Description" />
                 <ScalarProperty Name="AQuantity" ColumnName="AQuantity" />
+                <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -199,6 +207,7 @@
                 <ScalarProperty Name="Description" ColumnName="Description" />
                 <ScalarProperty Name="ProductsType" ColumnName="ProductsType" />
                 <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

@@ -24,6 +24,8 @@
     <Property Name="PointsPrice" Type="Int32" Nullable="false" />
     <Property Name="Description" Type="String" MaxLength="16777215" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="AQuantity" Type="Int32" Nullable="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
     <NavigationProperty Name="orders" Relationship="Self.fk_Order_Product1" FromRole="product" ToRole="order" />
     <NavigationProperty Name="supplier" Relationship="Self.fk_Product_Supplier" FromRole="product" ToRole="supplier" />
   </EntityType>
@@ -36,6 +38,7 @@
     <Property Name="Description" Type="String" MaxLength="16777215" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="ProductsType" Type="Int32" Nullable="false" />
     <Property Name="Status" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
     <NavigationProperty Name="products" Relationship="Self.fk_Product_Supplier" FromRole="supplier" ToRole="product" />
   </EntityType>
   <Association Name="fk_Order_Product1">
@@ -64,7 +67,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="scotiasuppliersEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="scotiasuppliersEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="orders" EntityType="Self.order" />
     <EntitySet Name="products" EntityType="Self.product" />
     <EntitySet Name="suppliers" EntityType="Self.supplier" />

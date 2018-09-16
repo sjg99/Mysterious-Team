@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="scotiasuppliersModelStoreContainer" CdmEntityContainer="scotiasuppliersEntities">
+  <EntityContainerMapping StorageEntityContainer="scotiasuppliersModelStoreContainer" CdmEntityContainer="scotiasuppliersEntities1">
     <EntitySetMapping Name="orders">
       <EntityTypeMapping TypeName="scotiasuppliersModel.order">
         <MappingFragment StoreEntitySet="order">
@@ -23,6 +23,8 @@
           <ScalarProperty Name="PointsPrice" ColumnName="PointsPrice" />
           <ScalarProperty Name="Description" ColumnName="Description" />
           <ScalarProperty Name="AQuantity" ColumnName="AQuantity" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -34,6 +36,7 @@
           <ScalarProperty Name="Description" ColumnName="Description" />
           <ScalarProperty Name="ProductsType" ColumnName="ProductsType" />
           <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

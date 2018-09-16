@@ -13,10 +13,10 @@ namespace ScotiaSuppliersAdmin.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class scotiasuppliersEntities : DbContext
+    public partial class scotiasuppliersEntities1 : DbContext
     {
-        public scotiasuppliersEntities()
-            : base("name=scotiasuppliersEntities")
+        public scotiasuppliersEntities1()
+            : base("name=scotiasuppliersEntities1")
         {
         }
     

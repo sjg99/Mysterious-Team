@@ -2,33 +2,36 @@
     box-sizing: border-box;
     margin: 0%;
 }
+header{
+    height:65px;
+}
 .content{
-    width: 80%;
-    height: 100vh;
-    background-color: rgb(243, 242, 239);
-    margin-left: 10%;
+    width: 100%;
+    display:flex;
+    flex-wrap:wrap; 
+    justify-content: center;
 }
  
-.boxes{
-    width: 20%;
-    height: 50%;
+.boxes{    
+    width:250px;
+    height:250px;
+    margin-top:40px;
+    margin-right: 70px;
+    margin-bottom:25px;
 }
 
-.img{
-    margin-left: 10%;
-    margin-top: 10%;
-    width: 80%;
-    height: 80%;
+.boximg{   
+    height:250px;
+    width:250px;
 }
 
 .go-products{
-    border: 1px solid rgb(143, 0, 10);
+    border: 1px solid white;
     align-content: center;
+    padding: 1%;
+    color: white;
     width: 50%;
     margin-left: 25%;
-    margin-top: 50%;
+    margin-top: 15%;
 }
 
-section{
-    display: flex;
-}
