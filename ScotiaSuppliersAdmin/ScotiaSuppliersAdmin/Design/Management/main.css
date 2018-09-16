@@ -2,7 +2,7 @@
 /* navegador */
 header{
     width: 100%;
-    height: 65px;
+    height: 10vh;
     background-color: rgb(255, 255, 255);
 }
 header{
@@ -40,9 +40,57 @@ a{
     float: right;
     
 }
+
+/* seccion1*/
 section{
-    margin-top: 50px 50px;
+    width: 100%;
+    height: 89vh;
+    background: url(logol.jpg);
+    background-size: cover;
+    background-repeat: none; 
 }
+section{
+    display: inline;
+}
+.seleccion{
+    display: inline;
+}
+.seleccion ul li{
+    
+text-shadow: 1px 1px 20px #000000;
+    background-color: 	#8B0000;
+    width: 200px;
+    height: 45px;
+    display: block;
+    float: right;
+    font-size: 2em;
+    margin: 0% 12%;
+}
+.seleccion ul h2{
+    
+    text-shadow: 1px 1px 20px #000000;
+        background-color: 	#8B0000;
+        width: 200px;
+        height: 45px;
+        display: block;
+        float: right;
+        font-size: 2em;
+        margin: 0% 5%;
+    }
+.seleccion ul li a{
+    margin: ;
+    color:white;
+    margin: 30pc 15px;
+    font-family: fantasy;
+}
+.seleccion ul h2 a{
+    margin: ;
+    color:white;
+    margin: 30pc 15px;
+    font-family: fantasy;
+}
+
+/*logo*/
 
 .animated { 
     animation-duration: 3s; 
@@ -106,6 +154,8 @@ section{
 
    .search{
        width: 100%;
+       height: 1vh;
        background-color: #ec1c2c;
        padding-left: 80%;
    }
+
