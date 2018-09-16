@@ -1,0 +1,107 @@
+
+body {
+    font-family:'Kreon',serif;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:100%;
+}
+img {
+    max-height:100%;
+    max-width:100%;
+}
+section {
+    position:relative;
+    padding:0;
+    background:#F0A830;
+    color:#FFF;
+    text-align:center;
+}
+section::before,section::after {
+    position:absolute;
+    content: '';
+}
+
+/* ==========================================================================
+    08. Reservation 
+========================================================================== */
+.form-group {
+    margin-bottom:24px;
+}
+.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control {
+    cursor:not-allowed;
+    background-color: transparent;
+}
+.form-control {
+    height:38px;
+    font-size:14px;
+    vertical-align:middle;
+    background-color:transparent;
+    -webkit-border-radius:2px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    -webkit-box-shadow:none !important;
+    -moz-box-shadow:none !important;
+    box-shadow:none !important;
+    -webkit-transition:none !important;
+    -moz-transition:none !important;
+    -o-transition:none !important;
+    transition:none !important;
+}
+
+.form p {
+    margin: 10px 0 30px 0;
+}
+
+
+/* ==========================================================================
+    11. Responsive styles 
+========================================================================== */
+
+@media (max-width: 991px){
+    .pricing .pricing-item .pricing-item-details {
+        margin-left: 0;
+    }
+
+    .pricing .pricing-item a img {
+        float: none;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:768px) {
+    .navbar-nav {
+        float:none !important;
+        width:100%;
+        text-align:center;
+        margin-left:9px;
+    }
+    .navbar-nav>li {
+        display:inline-block;
+        float:none;
+    }
+    #logo {
+        position:absolute;
+        display:block !important;
+        width:110px;
+        left:50%;
+        margin-left:-55px;
+        background:black;
+        -webkit-border-radius:0 0 100% 100%;
+        -moz-border-radius:0 0 100% 100%;
+        border-radius:0 0 100% 100%;
+        padding: 12px;
+    }
+}
+
+@media (max-width:767px) {
+    #header .banner h1 {
+        font-size:60px;
+    }
+    #header .subtitle h4 {
+        font-size: 22px;
+    }
+    .social-bar {
+        text-align: left;
+        margin-top: 30px;
+    }
+}
