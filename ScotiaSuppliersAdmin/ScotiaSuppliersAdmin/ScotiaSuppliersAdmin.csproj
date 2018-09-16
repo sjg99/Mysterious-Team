@@ -96,10 +96,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Design\Management\go.png" />
+    <Content Include="Design\Management\main.css" />
+    <Content Include="Design\Management\PRUEBA.html" />
+    <Content Include="Design\Management\reset.css" />
+    <Content Include="Design\Management\scotiabank.png" />
+    <Content Include="Design\Proveedores\CSS\animate.css" />
+    <Content Include="Design\Proveedores\CSS\bootstrap.min.css" />
+    <Content Include="Design\Proveedores\CSS\fancybox_loading.gif" />
+    <Content Include="Design\Proveedores\CSS\fancybox_overlay.png" />
+    <Content Include="Design\Proveedores\CSS\fancybox_sprite.png" />
+    <Content Include="Design\Proveedores\CSS\font-awesome.min.css" />
+    <Content Include="Design\Proveedores\CSS\jquery.fancybox.css" />
+    <Content Include="Design\Proveedores\CSS\main.css" />
+    <Content Include="Design\Proveedores\CSS\media-queries.css" />
+    <Content Include="Design\Proveedores\CSS\normalize.min.css" />
+    <Content Include="Design\Proveedores\CSS\owl.carousel.css" />
+    <Content Include="Design\Proveedores\CSS\prodcts.css" />
+    <Content Include="Design\Proveedores\productos.html" />
+    <Content Include="Design\Proveedores\script.js" />
     <Content Include="Global.asax" />
-<<<<<<< HEAD
-    <Content Include="Views\Management\main.css" />
-=======
     <Content Include="Models\ScotiaSuppliersDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ScotiaSuppliersDB.Context.cs</LastGenOutput>
@@ -110,12 +126,12 @@
       <DependentUpon>ScotiaSuppliersDB.edmx</DependentUpon>
       <LastGenOutput>ScotiaSuppliersDB.cs</LastGenOutput>
     </Content>
->>>>>>> a2cc0ca527518ab5073d84024d9aeb673dde86a5
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ManagementController.cs" />
+    <Compile Include="Controllers\SuppliersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -156,6 +172,7 @@
     </Content>
     <None Include="packages.config" />
     <Content Include="Views\Management\Index.cshtml" />
+    <Content Include="Views\Suppliers\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
