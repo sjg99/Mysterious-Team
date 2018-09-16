@@ -106,12 +106,27 @@
     <Content Include="Design\Index\css\style.css" />
     <Content Include="Design\Index\css\themefisher-fonts.css" />
     <Content Include="Design\Index\fonts\themefisher-font.svg" />
+    <Content Include="Design\Index\images\add.png" />
     <Content Include="Design\Index\images\Colpatria.png" />
+    <Content Include="Design\Index\images\del.png" />
     <Content Include="Design\Index\images\edificio.jpg" />
     <Content Include="Design\Index\images\header-bg.jpg" />
     <Content Include="Design\Index\images\profileimg.png" />
     <Content Include="Design\Index\images\Scotia.png" />
     <Content Include="Design\Index\index.html" />
+    <Content Include="Design\Index\js\bootstrap.min.js" />
+    <Content Include="Design\Index\js\jquery.form.js" />
+    <Content Include="Design\Index\js\jquery.lwtCountdown-1.0.js" />
+    <Content Include="Design\Index\js\jquery.nav.js" />
+    <Content Include="Design\Index\js\jquery.sticky.js" />
+    <Content Include="Design\Index\js\jquery.validate.min.js" />
+    <Content Include="Design\Index\js\main.js" />
+    <Content Include="Design\Index\js\min\main.min.js" />
+    <Content Include="Design\Index\js\owl.carousel.min.js" />
+    <Content Include="Design\Index\js\plugins.js" />
+    <Content Include="Design\Index\js\vendor\jquery-2.1.1.min.js" />
+    <Content Include="Design\Index\js\vendor\modernizr-2.6.2.min.js" />
+    <Content Include="Design\Index\js\wow.min.js" />
     <Content Include="Design\Index\Pages\Seguimiento\css\bootstrap-theme.min.css" />
     <Content Include="Design\Index\Pages\Seguimiento\css\bootstrap.min.css" />
     <Content Include="Design\Index\Pages\Seguimiento\css\font-awesome.min.css" />
@@ -156,6 +171,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\SeguimientoController.cs" />
     <Compile Include="Controllers\SuppliersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -190,6 +207,8 @@
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
     <Content Include="Views\Suppliers\Index.cshtml" />
+    <Content Include="Views\Products\Index.cshtml" />
+    <Content Include="Views\Seguimiento\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
