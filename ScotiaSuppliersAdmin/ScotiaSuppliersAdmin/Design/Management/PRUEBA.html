@@ -32,12 +32,27 @@
     <div class="search">
     </div>
     <section class="selector">
-        <div class="seleccion">
-            <h2><a href="#">Provedores</a></h2>    
-        </div>
-        <div class="seleccion2">
-            <h2><a href="#">Seguimiento</a></h2>    
-        </div>
+        <div class="contenedor" id="uno">
+			<img class="icon" src="libreta.png">
+			<p class="texto">provedores</p>
+		</div>
+
+		<div class="contenedor" id="dos">
+			<img class="icon" src="ojo.png">
+			<p class="texto">seguimiento</p>
+		</div>
     </section>
+    <script src="../../Scripts/jquery-1.8.0.min.js"></script>
+    <script>
+        $('#uno, #dos').hover(function(){
+            $(this).stop().animate({
+                height: "250px"
+            });
+        }, function(){
+            $(this).stop().animate({
+                height: "200px"
+            });
+        });
+    </script>
 </body>
 </html>
