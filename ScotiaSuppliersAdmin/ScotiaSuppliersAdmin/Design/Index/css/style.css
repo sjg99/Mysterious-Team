@@ -1,0 +1,143 @@
+/*--
+    Common Css
+--*/
+body {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #3b4045;
+  font: 14px/22px 'Source Sans Pro', sans-serif, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  margin: 0px; }
+
+h1 {
+  font-size: 44px;
+  line-height: 56px;
+  color: #fff; }
+
+h2 {
+  font-size: 30px;
+  line-height: 35px; }
+
+h3 {
+  font-size: 23px;
+  line-height: 25px; }
+
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400; }
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0px; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+a {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
+
+a:focus,
+.btn:focus,
+.btn:active:focus {
+  box-shadow: none;
+  outline: 0 none; }
+
+a,
+a:active,
+a:focus,
+a:active {
+  text-decoration: none; }
+
+.section {
+  padding: 100px 0; }
+
+/*--
+    custom heading
+--*/
+.text-center {
+  text-align: center; }
+
+.heading {
+  text-align: center;
+  color: #777777;
+  padding-bottom: 70px; }
+  .heading h2 {
+    color: #3c3c3c;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px; }
+  .heading p {
+    font-family: 'Droid Serif', serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300; }
+
+.btn {
+  border-radius: 0; }
+
+.btn-home {
+  background-color: #1bafb4;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 40px;
+  margin-top: 30px; }
+  .btn-home:hover, .btn-home:focus {
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #fff; }
+
+/*--
+    service start
+--*/
+.service {
+  text-align: center; }
+  .service .block {
+    margin-bottom: 50px; }
+    .service .block i {
+      font-size: 30px;
+      display: inline-block;
+      margin-bottom: 15px;
+      color: #1bafb4; }
+    .service .block h3 {
+      color: #333333;
+      font-weight: 600;
+      font-size: 18px;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+      text-transform: uppercase; }
+    .service .block p {
+      color: #666; }
+
+/*--
+    About start
+--*/
+.about .content h3 {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #7e7e7e;
+  margin-bottom: 20px;
+  font-family: 'Droid Serif', serif; }
+
+.about .about-slider img {
+  width: 100%;
+  height: auto; }
