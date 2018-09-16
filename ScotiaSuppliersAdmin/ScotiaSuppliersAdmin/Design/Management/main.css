@@ -17,6 +17,10 @@ a{
     text-decoration: none;
     color:rgb(0, 0, 0);
 }
+.nombre{
+    font-family: 'Courgette', cursive;
+    margin-left: 30px; 
+}
 .usuario ul h1{
     width: 200px;
     height: 50px;
