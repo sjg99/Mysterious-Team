@@ -105,3 +105,6 @@ section::before,section::after {
         margin-top: 30px;
     }
 }
+table{
+    border: 5px;
+}
