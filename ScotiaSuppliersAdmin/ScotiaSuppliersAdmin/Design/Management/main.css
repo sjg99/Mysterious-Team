@@ -2,8 +2,8 @@
 /* navegador */
 header{
     width: 100%;
-    height: 60px;
-    background-color: darkred;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
 }
 header{
     display: inline;
@@ -15,11 +15,11 @@ header{
 }
 a{
     text-decoration: none;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 .usuario ul h1{
     width: 200px;
-    height: 40px;
+    height: 50px;
     display: block;
     margin: 15px 10px;
     float: right;
@@ -39,3 +39,69 @@ a{
 section{
     margin-top: 50px 50px;
 }
+
+.animated { 
+    animation-duration: 3s; 
+    animation-fill-mode: backwards;
+    animation-iteration-count:infinite; 
+    position: absolute;
+} 
+.animated2 { 
+    animation-duration: 20s; 
+    animation-fill-mode: both; 
+    animation-iteration-count:infinite; 
+    position: absolute;
+} 
+
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;}
+    0% {opacity: 1;} 
+    100% {opacity: 0;} 
+} 
+.fadeIn { 
+    animation-name: fadeIn; 
+}
+@keyframes fadeOut {
+    0% {opacity: 1;} 
+    100% {opacity: 0;} 
+    0% {opacity: 0;} 
+    100% {opacity: 1;}
+} 
+.fadeOut { 
+    animation-name: fadeOut; 
+}
+
+@keyframes flash {
+    25%, 75% {
+        opacity: 1;
+        }
+    0%, 50%, 100% {
+    opacity: 0;
+    }
+   
+   }
+   .flash {
+    -webkit-animation-name: flash;
+    animation-name: flash;
+   }
+
+   @keyframes flash2 {
+    25%, 75% {
+        opacity: 0;
+        }
+    0%, 50%, 100% {
+    opacity: 1;
+    }
+   
+   }
+   .flash2 {
+    -webkit-animation-name: flash2;
+    animation-name: flash2;
+   }
+
+   .search{
+       width: 100%;
+       background-color: #ec1c2c;
+       padding-left: 80%;
+   }
