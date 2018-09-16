@@ -2,7 +2,7 @@
 /* navegador */
 header{
     width: 100%;
-    height: 10vh;
+    height: 5vh;
     background-color: rgb(255, 255, 255);
 }
 header{
@@ -18,13 +18,16 @@ a{
     color:rgb(0, 0, 0);
 }
 .nombre{
-    margin-left: 30px; 
+    margin-left: 0px; 
+    float: left;
+    font-family: 'Coustard', serif;
+    font-size: 20px;
 }
 .usuario ul h1{
     width: 200px;
-    height: 50px;
+    height: 25px;
     display: block;
-    margin: 15px 10px;
+    margin: 20px 0px;
     float: right;
     font-family: sans-serif;
     font-size: 1.5em;
@@ -34,19 +37,18 @@ a{
     height: 40px;
     display: block;
     border-radius: 50%;
-    margin: 10px 40px 10px 0px;
-    background-color: darkgray;
+    margin: 10px 40px 0px 0px;
+    background-color: rgb(255, 255, 255);
     float: right;
-    
+    border: 2px solid black;
 }
 
-/*logo*/
-
 .animated { 
-    animation-duration: 3s; 
+    animation-duration: 20s; 
     animation-fill-mode: backwards;
     animation-iteration-count:infinite; 
     position: absolute;
+    padding-top: 3px;
 } 
 .animated2 { 
     animation-duration: 20s; 
@@ -104,12 +106,26 @@ a{
 
    .search{
        width: 100%;
-       height: 4vh;
+       height: 4.5vh;
        background-color: #ec1c2c;
+       text-align: right;
+       float: right;
+       padding-right: 50px;
+   }
+   .inpt{
+    padding-top: 1vh;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    float: right;
+   }
+   .srch{
+       padding-top:3px;
+       position: absolute;
+       float: right;
+       margin-right: 5px;
    }
 
 .selector{
-    
     background: url(logol.jpg);
     background-repeat: none;
     background: cover;
@@ -118,26 +134,24 @@ a{
     justify-content: center;
     height: 86vh;
 }
-   div#uno, div#dos{
-       margin: 1%;
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-content: center;
-       padding: 1%;
-       width: 200px;
-       max-height: 215px;
+div#uno, div#dos{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 1%;
+    width: 200px;
+    max-height: 200px;
     background-color: #ec1c2c;
     font-family: sans-serif;
-    border-radius: 3px;
+    border-radius: 5px;
 }
-
-
 img.icon{
 	display: block;
-	margin:50px auto;
+	margin:30px auto;
 	background-color: white;
-	width:40px;
+	width:60px;
 	padding:20px;
 	-webkit-border-radius: 50%;
 	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
