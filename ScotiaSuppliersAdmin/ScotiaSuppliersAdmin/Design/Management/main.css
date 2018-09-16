@@ -18,7 +18,6 @@ a{
     color:rgb(0, 0, 0);
 }
 .nombre{
-    font-family: 'Courgette', cursive;
     margin-left: 30px; 
 }
 .usuario ul h1{
@@ -107,25 +106,29 @@ a{
        width: 100%;
        height: 4vh;
        background-color: #ec1c2c;
-       padding-left: 80%;
    }
 
 .selector{
-    transition-duration: 2s;
+    
+    background: url(logol.jpg);
+    background-repeat: none;
+    background: cover;
     width: 100%;
     display: flex;
     justify-content: center;
+    height: 86vh;
 }
    div#uno, div#dos{
        margin: 1%;
-       
        display: flex;
        flex-direction: column;
        justify-content: center;
        align-content: center;
        padding: 1%;
        width: 200px;
-	background-color: #ec1c2c;
+    background-color: #ec1c2c;
+    font-family: sans-serif;
+    border-radius: 3px;
 }
 
 
