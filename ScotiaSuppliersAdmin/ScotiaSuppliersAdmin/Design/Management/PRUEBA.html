@@ -6,7 +6,6 @@
     <title>Index</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -33,6 +32,32 @@
             <input type="search">
             <button>Go</button>
     </div>
+<<<<<<< HEAD
     
+=======
+    <section class="selector">
+        <div class="contenedor" id="uno">
+			<img class="icon" src="libreta.png">
+			<p class="texto">Provedores</p>
+		</div>
+
+		<div class="contenedor" id="dos">
+			<img class="icon" src="ojo.png">
+			<p class="texto">Seguimiento</p>
+		</div>
+    </section>
+    <script src="../../Scripts/jquery-1.8.0.min.js"></script>
+    <script>
+        $('#uno, #dos').hover(function(){
+            $(this).stop().animate({
+                height: "250px"
+            });
+        }, function(){
+            $(this).stop().animate({
+                height: "200px"
+            });
+        });
+    </script>
+>>>>>>> 2f886c4d0df2273b1fd8af72a8cb9b764cade4a9
 </body>
 </html>

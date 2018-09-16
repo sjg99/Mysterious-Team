@@ -4,21 +4,24 @@
 }
 .content{
     width: 80%;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(243, 242, 239);
     margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
 }
  
 .boxes{
-    width: 20%;
-    height: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 150px;
+    margin-bottom: 100px;
 }
 
 .img{
     margin-left: 10%;
     margin-top: 10%;
-    width: 80%;
-    height: 80%;
+    width: 100%;
 }
 
 .go-products{
@@ -26,9 +29,7 @@
     align-content: center;
     width: 50%;
     margin-left: 25%;
-    margin-top: 50%;
+    margin-top: 15%;
+    text-decoration: none;
 }
 
-section{
-    display: flex;
-}
