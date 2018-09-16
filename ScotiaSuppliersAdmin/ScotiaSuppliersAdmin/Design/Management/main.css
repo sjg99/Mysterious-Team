@@ -2,7 +2,7 @@
 /* navegador */
 header{
     width: 100%;
-    height: 10vh;
+    height: 5vh;
     background-color: rgb(255, 255, 255);
 }
 header{
@@ -18,14 +18,16 @@ a{
     color:rgb(0, 0, 0);
 }
 .nombre{
-    font-family: 'Courgette', cursive;
-    margin-left: 30px; 
+    margin-left: 0px; 
+    float: left;
+    font-family: 'Coustard', serif;
+    font-size: 20px;
 }
 .usuario ul h1{
     width: 200px;
-    height: 50px;
+    height: 25px;
     display: block;
-    margin: 15px 10px;
+    margin: 20px 0px;
     float: right;
     font-family: sans-serif;
     font-size: 1.5em;
@@ -35,68 +37,18 @@ a{
     height: 40px;
     display: block;
     border-radius: 50%;
-    margin: 10px 40px 10px 0px;
-    background-color: darkgray;
+    margin: 10px 40px 0px 0px;
+    background-color: rgb(255, 255, 255);
     float: right;
-    
+    border: 2px solid black;
 }
-
-/* seccion1*/
-section{
-    width: 100%;
-    height: 89vh;
-    background: url(logol.jpg);
-    background-size: cover;
-    background-repeat: none; 
-}
-section{
-    display: inline;
-}
-.seleccion{
-    display: inline;
-}
-.seleccion ul li{
-    
-text-shadow: 1px 1px 20px #000000;
-    background-color: 	#8B0000;
-    width: 200px;
-    height: 45px;
-    display: block;
-    float: right;
-    font-size: 2em;
-    margin: 0% 12%;
-}
-.seleccion ul h2{
-    
-    text-shadow: 1px 1px 20px #000000;
-        background-color: 	#8B0000;
-        width: 200px;
-        height: 45px;
-        display: block;
-        float: right;
-        font-size: 2em;
-        margin: 0% 5%;
-    }
-.seleccion ul li a{
-    margin: ;
-    color:white;
-    margin: 30pc 15px;
-    font-family: fantasy;
-}
-.seleccion ul h2 a{
-    margin: ;
-    color:white;
-    margin: 30pc 15px;
-    font-family: fantasy;
-}
-
-/*logo*/
 
 .animated { 
-    animation-duration: 3s; 
+    animation-duration: 20s; 
     animation-fill-mode: backwards;
     animation-iteration-count:infinite; 
     position: absolute;
+    padding-top: 3px;
 } 
 .animated2 { 
     animation-duration: 20s; 
@@ -154,8 +106,74 @@ text-shadow: 1px 1px 20px #000000;
 
    .search{
        width: 100%;
-       height: 4vh;
+       height: 4.5vh;
        background-color: #ec1c2c;
-       padding-left: 80%;
+       text-align: right;
+       float: right;
+       padding-right: 50px;
    }
+   .inpt{
+    padding-top: 1vh;
+    padding-bottom: 0px;
+    margin-right: 10px;
+    float: right;
+   }
+   .srch{
+       padding-top:3px;
+       position: absolute;
+       float: right;
+       margin-right: 5px;
+   }
+
+.selector{
+    background: url(logol.jpg);
+    background-repeat: none;
+    background: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 86vh;
+}
+div#uno, div#dos{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 1%;
+    width: 200px;
+    max-height: 200px;
+    background-color: #ec1c2c;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+img.icon{
+	display: block;
+	margin:30px auto;
+	background-color: white;
+	width:60px;
+	padding:20px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+
+p.texto{
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+
+#uno:hover p.texto, #dos:hover p.texto{
+	padding-top: 30px;
+    opacity: 1;
+}
+
+#uno:hover img.icon, #dos:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px white;
+}
 

@@ -38,26 +38,25 @@
     </div>-->
 
     <div class="content">
-        @foreach (var x in Model)
-        {
-            <div class="boxes">
-                <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated animated img" data-wow-duration="500ms" style="visibility: visible; animation-duration: 500ms; animation-name: fadeInUp;">
-                    <div class="member-thumb">
-                        <img src="~/Design/Proveedores/Tostao.png" alt="Team Member" class="img-responsive">
-                        <figcaption class="overlay">
-                            <h5>@x.Name</h5>
-                            <p>@x.Description</p>
-                            <ul>
-                                <li class="go-products"><a href="*">Ver Productos</a></li>
-                            </ul>
-                        </figcaption>
-                    </div>
-                </figure>
-            </div>
-        }
+        <section class="boxes">
+            @foreach (var x in Model)
+            {
+            <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated animated img" data-wow-duration="500ms" style="visibility: visible; animation-duration: 500ms; animation-name: fadeInUp;">
+                <div class="member-thumb">
+                    <img src="" alt="Team Member" class="img-responsive">
+                    <figcaption class="overlay">
+                        <h5>@x.Name</h5>
+                        <p>@x.Description</p>
+                        <ul>
+                            <li class="go-products"><a href="*">Ver Productos</a></li>
+                        </ul>
+                    </figcaption>
+                </div>
+            </figure>
+            }
+        </section>
 
     </div>
-    <script src="~/Scripts/jquery-1.8.0.js"></script>
     <script src="~/Design/Proveedores/script.js"></script>
 </body>
 </html>
