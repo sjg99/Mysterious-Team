@@ -1,6 +1,6 @@
 
 body {
-    font-family:'Kreon',serif;
+    font-family: sans-serif; 
     -webkit-font-smoothing:antialiased;
     -webkit-text-size-adjust:100%;
 }
@@ -105,6 +105,21 @@ section::before,section::after {
         margin-top: 30px;
     }
 }
-table{
+table {
+    margin: 15px;
+    padding: 15px;
+  }
+.tbody {
+    margin: 15px;
+    padding: 15px;
+  }
+  tr {
+    margin: 15px;
+    padding: 15px;
     border: 5px;
-}
+  
+  }
+  td {
+    margin: 15px;
+    padding: 15px;
+  }
