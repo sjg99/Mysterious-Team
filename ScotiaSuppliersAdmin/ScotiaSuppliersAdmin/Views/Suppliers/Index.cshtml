@@ -1,4 +1,4 @@
-﻿
+﻿@model  IEnumerable<ScotiaSuppliersAdmin.Models.supplier>
 @{
     Layout = null;
 }
@@ -39,18 +39,21 @@
 
     <div class="content">
         <section class="boxes">
+            @foreach (var x in Model)
+            {
             <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated animated img" data-wow-duration="500ms" style="visibility: visible; animation-duration: 500ms; animation-name: fadeInUp;">
                 <div class="member-thumb">
-                    <img src="https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Instagram-512.png" alt="Team Member" class="img-responsive">
+                    <img src="" alt="Team Member" class="img-responsive">
                     <figcaption class="overlay">
-                        <h5>Nombre del Proveedor</h5>
-                        <p>Descripción</p>
+                        <h5>@x.Name</h5>
+                        <p>@x.Description</p>
                         <ul>
-                            <li class="go-products"><a href="https:\\www.google.com">Productos</a></li>
+                            <li class="go-products"><a href="*">Ver Productos</a></li>
                         </ul>
                     </figcaption>
                 </div>
             </figure>
+            }
         </section>
 
     </div>
