@@ -1,12 +1,5 @@
 ﻿
 /* navegador */
-*{
-    box-sizing: border-box;
-    padding: 0;
-}
-body{
-    width: 100%;
-}
 header{
     width: 100%;
     height: 10vh;
@@ -18,6 +11,7 @@ header{
 .navegador{
     display: inline;
     text-decoration: none;
+    
 }
 a{
     text-decoration: none;
@@ -62,9 +56,10 @@ section{
     display: inline;
 }
 .seleccion ul li{
-    text-shadow: 1px 1px 20px #000000;
+    
+text-shadow: 1px 1px 20px #000000;
     background-color: 	#8B0000;
-    width: 100%;
+    width: 200px;
     height: 45px;
     display: block;
     float: right;
@@ -74,27 +69,25 @@ section{
 .seleccion ul h2{
     
     text-shadow: 1px 1px 20px #000000;
-    background-color: 	#8B0000;
-    width: 100%;
-    height: 45px;
-    display: block;
-    float: right;
-    font-size: 2em;
-    margin: 0% 5%;
+        background-color: 	#8B0000;
+        width: 200px;
+        height: 45px;
+        display: block;
+        float: right;
+        font-size: 2em;
+        margin: 0% 5%;
     }
 .seleccion ul li a{
     margin: ;
     color:white;
     margin: 30pc 15px;
     font-family: fantasy;
-    width: 100%;
 }
 .seleccion ul h2 a{
-    margin: 0;
+    margin: ;
     color:white;
     margin: 30pc 15px;
     font-family: fantasy;
-    width: 100%;
 }
 
 /*logo*/
@@ -134,40 +127,35 @@ section{
 @keyframes flash {
     25%, 75% {
         opacity: 1;
-    }
+        }
     0%, 50%, 100% {
-        opacity: 0;
-    } 
-}
-.flash {
+    opacity: 0;
+    }
+   
+   }
+   .flash {
     -webkit-animation-name: flash;
     animation-name: flash;
-}
+   }
 
-@keyframes flash2 {
+   @keyframes flash2 {
     25%, 75% {
         opacity: 0;
         }
     0%, 50%, 100% {
     opacity: 1;
-}
-
-}
-.flash2 {
+    }
+   
+   }
+   .flash2 {
     -webkit-animation-name: flash2;
     animation-name: flash2;
-    padding-top: 5px;
-}
+   }
 
-.search{
-    width: 100%;
-    height: 30px;
-    background-color: #ec1c2c;
-    float: right;
-    padding-left: 80%;
-    padding-top: 5px;
-    margin-top: 0px;
-    margin-right: 0%;
-}
- 
+   .search{
+       width: 100%;
+       height: 4vh;
+       background-color: #ec1c2c;
+       padding-left: 80%;
+   }
 
