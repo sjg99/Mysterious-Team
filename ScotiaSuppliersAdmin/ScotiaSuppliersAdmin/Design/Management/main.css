@@ -18,7 +18,6 @@ a{
     color:rgb(0, 0, 0);
 }
 .nombre{
-    font-family: 'Courgette', cursive;
     margin-left: 30px; 
 }
 .usuario ul h1{
@@ -39,55 +38,6 @@ a{
     background-color: darkgray;
     float: right;
     
-}
-
-/* seccion1*/
-section{
-    width: 100%;
-    height: 89vh;
-    background: url(logol.jpg);
-    background-size: cover;
-    background-repeat: none; 
-}
-section{
-    display: inline;
-}
-.seleccion{
-    display: inline;
-}
-.seleccion ul li{
-    
-text-shadow: 1px 1px 20px #000000;
-    background-color: 	#8B0000;
-    width: 200px;
-    height: 45px;
-    display: block;
-    float: right;
-    font-size: 2em;
-    margin: 0% 12%;
-}
-.seleccion ul h2{
-    
-    text-shadow: 1px 1px 20px #000000;
-        background-color: 	#8B0000;
-        width: 200px;
-        height: 45px;
-        display: block;
-        float: right;
-        font-size: 2em;
-        margin: 0% 5%;
-    }
-.seleccion ul li a{
-    margin: ;
-    color:white;
-    margin: 30pc 15px;
-    font-family: fantasy;
-}
-.seleccion ul h2 a{
-    margin: ;
-    color:white;
-    margin: 30pc 15px;
-    font-family: fantasy;
 }
 
 /*logo*/
@@ -156,17 +106,59 @@ text-shadow: 1px 1px 20px #000000;
        width: 100%;
        height: 4vh;
        background-color: #ec1c2c;
-       padding-left: 80%;
    }
-.search{
-    width: 100%;
-    height: 30px;
-    background-color: #ec1c2c;
-    float: right;
-    padding-left: 80%;
-    padding-top: 5px;
-    margin-top: 0px;
-    margin-right: 0%;
-}
- 
 
+.selector{
+    
+    background: url(logol.jpg);
+    background-repeat: none;
+    background: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 86vh;
+}
+   div#uno, div#dos{
+       margin: 1%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-content: center;
+       padding: 1%;
+       width: 200px;
+       max-height: 215px;
+    background-color: #ec1c2c;
+    font-family: sans-serif;
+    border-radius: 3px;
+}
+
+
+img.icon{
+	display: block;
+	margin:50px auto;
+	background-color: white;
+	width:40px;
+	padding:20px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+
+p.texto{
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+
+#uno:hover p.texto, #dos:hover p.texto{
+	padding-top: 30px;
+    opacity: 1;
+}
+
+#uno:hover img.icon, #dos:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px white;
+}
