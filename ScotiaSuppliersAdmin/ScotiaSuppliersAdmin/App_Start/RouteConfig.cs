@@ -16,7 +16,7 @@ namespace ScotiaSuppliersAdmin
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Management", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Suppliers", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

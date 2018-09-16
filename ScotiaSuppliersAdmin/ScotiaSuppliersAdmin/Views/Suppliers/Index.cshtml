@@ -4,42 +4,82 @@
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Scotia Suppliers Admin</title>
-    <link href="~/Design/Proveedores/CSS/prodcts.css" rel="stylesheet" />
-    <link href="~/Design/Proveedores/CSS/media-queries.css" rel="stylesheet" />
-    <link href="~/Design/Proveedores/CSS/main.css" rel="stylesheet" />
-    <link href="~/Design/Proveedores/CSS/jquery.fancybox.css" rel="stylesheet" />
-    <link href="~/Design/Proveedores/CSS/font-awesome.min.css" rel="stylesheet" />
-    <link href="~/Design/Proveedores/CSS/animate.css" rel="stylesheet" />
-
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link href="~/Design/Index/css/themefisher-fonts.css" rel="stylesheet" />
+    <link href="~/Design/Index/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Design/Index/css/owl.carousel.css" rel="stylesheet" />
+    <link href="~/Design/Index/css/animate.css" rel="stylesheet" />
+    <link href="~/Design/Index/css/style.css" rel="stylesheet" />
+    <link href="~/Design/Index/css/responsive.css" rel="stylesheet" />    
 </head>
-<body style="background: url(../../Design/Management/logol.jpg);">
-    
-    <div class="content">
-        @foreach (var x in Model)
-        {
-            <div class="boxes">
-                <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center" data-wow-duration="500ms" style="visibility: visible; animation-duration: 500ms; animation-name: fadeInUp;">
-                    <div class="member-thumb">
-                        <img src="@x.ImageUrl" alt="Team Member" class="boximg">
-                        <figcaption class="overlay">
-                            <h5>@x.Name</h5>
-                            <p>@x.Description</p>
-                            <ul>
-                                <li class="go-products"><a style="color: white; text-decoration: none;" href="*">Ver Productos</a></li>
-                            </ul>
-                        </figcaption>
-                    </div>
-                </figure>
+<body id="body">
+    <div class="container">
+        <nav class="navbar navbar-fixed-top  navigation " id="top-nav">
+            <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+                <ul class="nav navbar-nav menu float-lg-right" id="top-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#">Santiago Armando Pedroza</a></li>
+                    <li class="nav-item profile-img"><a><img src="images/profileimg.png" alt=""></a></li>
+                </ul>
             </div>
-        }
-
-
+        </nav>
     </div>
-    <script src="~/Design/Proveedores/script.js"></script>
+
+    <div id="navegador">
+        <nav class="navegador">
+            <div class="logo_colpatria">
+                <div class="animated2 flash2">
+                    <img src="~/Design/Index/images/Colpatria.png" />
+                </div>
+                <div class="animated2 flash">
+                    <img src="~/Design/Index/images/Scotia.png" />
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section class="hero-area bg-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="block">
+                        <div class="wow fadeInDown" data-wow-delay="0.7s" data-wow-duration=".7s">
+                            <a class="btn btn-home prov" href="#service" role="button">Provedores</a>
+                        </div>
+                        <div class="wow fadeInDown" data-wow-delay="0.7s" data-wow-duration=".7s">
+                            <a class="btn btn-home segui" href="Pages/seguimiento/index.html" role="button">Seguimiento</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="service" class="service section">
+        <div class="container">
+            <div class="row">
+                <div class="heading wow fadeInUp">
+                    <h2>Provedores</h2>
+                </div>
+                @foreach (var x in Model)
+                {
+                <div class="col-sm-6 col-md-3 wow fadeInLeft">
+                    <div class="block">
+                        <img src="@x.ImageUrl" style="width: 250px;" />
+                        <h3>@x.Name</h3>
+                        <p>@x.Description</p>
+                        <button type="submit" style=" background-color: #C0392B; /* Green */    border: none;    color: white;    padding: 15px 32px;    text-align: center;    text-decoration: none;    display: inline-block;    font-size: 16px;">Ver Productos</button>
+                    </div>
+                </div>   
+                }
+            </div>
+        </div>
+    </section>
 </body>
 </html>

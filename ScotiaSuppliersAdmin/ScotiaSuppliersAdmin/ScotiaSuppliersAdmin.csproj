@@ -96,35 +96,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Design\Management\Colpatria.png" />
-    <Content Include="Design\Management\go.png" />
-    <Content Include="Design\Management\libreta.png" />
-    <Content Include="Design\Management\logol.jpg" />
-    <Content Include="Design\Management\logol.png" />
-    <Content Include="Design\Management\lupa.png" />
-    <Content Include="Design\Management\lupa1.png" />
-    <Content Include="Design\Management\lupa2.png" />
-    <Content Include="Design\Management\main.css" />
-    <Content Include="Design\Management\ojo.png" />
-    <Content Include="Design\Management\profileimg.png" />
-    <Content Include="Design\Management\PRUEBA.html" />
-    <Content Include="Design\Management\reset.css" />
-    <Content Include="Design\Management\Scotia.png" />
-    <Content Include="Design\Management\scotiabank.png" />
-    <Content Include="Design\Proveedores\CSS\animate.css" />
-    <Content Include="Design\Proveedores\CSS\bootstrap.min.css" />
-    <Content Include="Design\Proveedores\CSS\fancybox_loading.gif" />
-    <Content Include="Design\Proveedores\CSS\fancybox_overlay.png" />
-    <Content Include="Design\Proveedores\CSS\fancybox_sprite.png" />
-    <Content Include="Design\Proveedores\CSS\font-awesome.min.css" />
-    <Content Include="Design\Proveedores\CSS\jquery.fancybox.css" />
-    <Content Include="Design\Proveedores\CSS\main.css" />
-    <Content Include="Design\Proveedores\CSS\media-queries.css" />
-    <Content Include="Design\Proveedores\CSS\normalize.min.css" />
-    <Content Include="Design\Proveedores\CSS\owl.carousel.css" />
-    <Content Include="Design\Proveedores\CSS\prodcts.css" />
-    <Content Include="Design\Proveedores\productos.html" />
-    <Content Include="Design\Proveedores\script.js" />
+    <Content Include="Design\Index\css\animate.css" />
+    <Content Include="Design\Index\css\bootstrap.min-3.css" />
+    <Content Include="Design\Index\css\bootstrap.min.css" />
+    <Content Include="Design\Index\css\font-awesome.min.css" />
+    <Content Include="Design\Index\css\owl.carousel.css" />
+    <Content Include="Design\Index\css\owl.theme.css" />
+    <Content Include="Design\Index\css\responsive.css" />
+    <Content Include="Design\Index\css\style.css" />
+    <Content Include="Design\Index\css\themefisher-fonts.css" />
+    <Content Include="Design\Index\fonts\themefisher-font.svg" />
+    <Content Include="Design\Index\images\Colpatria.png" />
+    <Content Include="Design\Index\images\edificio.jpg" />
+    <Content Include="Design\Index\images\header-bg.jpg" />
+    <Content Include="Design\Index\images\profileimg.png" />
+    <Content Include="Design\Index\images\Scotia.png" />
+    <Content Include="Design\Index\index.html" />
+    <Content Include="Design\Index\Pages\Seguimiento\css\bootstrap-theme.min.css" />
+    <Content Include="Design\Index\Pages\Seguimiento\css\bootstrap.min.css" />
+    <Content Include="Design\Index\Pages\Seguimiento\css\font-awesome.min.css" />
+    <Content Include="Design\Index\Pages\Seguimiento\css\main.css" />
+    <Content Include="Design\Index\Pages\Seguimiento\fonts\fontawesome-webfont.svg" />
+    <Content Include="Design\Index\Pages\Seguimiento\index.html" />
+    <Content Include="Design\Index\scss\.gitignore" />
     <Content Include="Global.asax" />
     <EntityDeploy Include="Models\ScotiaSuppliersDB.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -133,6 +127,16 @@
     <Content Include="Models\ScotiaSuppliersDB.edmx.diagram">
       <DependentUpon>ScotiaSuppliersDB.edmx</DependentUpon>
     </Content>
+    <Content Include="Design\Index\fonts\themefisher-font.eot" />
+    <Content Include="Design\Index\fonts\themefisher-font.ttf" />
+    <Content Include="Design\Index\fonts\themefisher-font.woff" />
+    <Content Include="Design\Index\Pages\Seguimiento\fonts\fontawesome-webfont.eot" />
+    <Content Include="Design\Index\Pages\Seguimiento\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Design\Index\Pages\Seguimiento\fonts\fontawesome-webfont.woff" />
+    <Content Include="Design\Index\Pages\Seguimiento\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Design\Index\Pages\Seguimiento\fonts\FontAwesome.otf" />
+    <Content Include="Design\Index\scss\responsive.scss" />
+    <Content Include="Design\Index\scss\style.scss" />
     <None Include="Scripts\jquery-1.8.0.intellisense.js" />
     <Content Include="Models\ScotiaSuppliersDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -152,7 +156,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\ManagementController.cs" />
     <Compile Include="Controllers\SuppliersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -186,7 +189,6 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
-    <Content Include="Views\Management\Index.cshtml" />
     <Content Include="Views\Suppliers\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
